@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine){
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     var serving = katzDeliLine.shift();
-      return `Currently serving ${serving}.`;
+      return `Currently serving ticket ${serving}.`;
   } else {return 'There is nobody waiting to be served!'}
 }
 
