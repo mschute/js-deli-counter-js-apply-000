@@ -2,7 +2,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine){
   var ticketNumber = 0
-  ticketNumber += 1
+  ticketNumber = ticketNumber + 1
  katzDeliLine.push(ticketNumber);
   return `Welcome, ticket #${ticketNumber}`
 }
